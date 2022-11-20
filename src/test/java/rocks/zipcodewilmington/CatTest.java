@@ -18,14 +18,14 @@ public class CatTest {
     @Test
     public void setNameTest(){
         // Given (cat data)
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
         // When (a cat is constructed)
         Cat cat = new Cat(givenName, givenBirthDate, givenId);
 
-        String expected = "Tom";
+        String expected = "Zula";
         String actual = cat.getName();
         Assert.assertEquals(expected, actual);
     }
@@ -35,7 +35,7 @@ public class CatTest {
     @Test
     public void speakTest(){
         // Given (cat data)
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
@@ -50,7 +50,7 @@ public class CatTest {
     @Test
     public void setBirthDateTest(){
         // Given (cat data)
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
@@ -68,7 +68,7 @@ public class CatTest {
     // Given (cat data)
     @Test
     public void eat(){
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
@@ -81,7 +81,7 @@ public class CatTest {
     // TODO - Create tests for `Integer getId()`
     @Test
     public void getIdTest(){
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
@@ -92,7 +92,7 @@ public class CatTest {
     // TODO - Create test to check Animal inheritance; google search `java instanceof keyword`
     @Test
     public void checkAnimalInheritanceTest(){
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
@@ -102,7 +102,7 @@ public class CatTest {
     // TODO - Create test to check Mammal inheritance; google search `java instanceof keyword`
     @Test
     public void checkMammalInheritanceTest(){
-        String givenName = "Tom";
+        String givenName = "Zula";
         Date givenBirthDate = new Date();
         Integer givenId = 0;
 
